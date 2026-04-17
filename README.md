@@ -1,3 +1,5 @@
+
+```markdown
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=50&pause=1000&color=FF0000&center=true&vCenter=true&width=700&height=120&lines=🩸+BLD-BLOOD-BOT+🩸;THE+MOST+POWERFUL+BOT;DEVELOPED+BY+BLOOD" alt="Typing SVG" />
 </p>
@@ -16,18 +18,20 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=800&color=00FF00&center=true&vCenter=true&width=600&height=60&lines=STATUS:+ONLINE+✅;SYSTEM:+STABLE+🚀;OWNER:+BLOOD+🧛‍♂️" alt="Status SVG" />
 </p>
 
+---
+
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&pause=500&color=FF0000&center=true&vCenter=true&width=700&height=80&lines=DESCRIZIONE;SPECIFICHE+TECNICHE" alt="Titolo Descrizione Animato" />
 </p>
 
-**BLD-BLOOD-BOT** non è solo un semplice bot, è un ecosistema avanzato e completo per la gestione delle chat di WhatsApp, costruito meticolosamente per garantire la massima potenza e stabilità operativa in ogni situazione.
+**BLD-BLOOD-BOT** è un ecosistema avanzato per WhatsApp, costruito per garantire la massima potenza e stabilità.
 
 ### 🛡️ Specifiche del Sistema:
-* **Core Ultra-Rapido:** Sviluppato in Node.js (V16+) con architettura asincrona e non bloccante per performance superiori.
-* **Intelligenza Integrata:** Sistema neurale di base per l'elaborazione del linguaggio naturale e risposte contestuali.
-* **Stabilità Garantita:** Buffer intelligente di gestione dei messaggi in ingresso e uscita per prevenire crash anche sotto carichi pesanti o spam.
-* **Sicurezza Avanzata:** Algoritmo Anti-Ban 4.0 costantemente aggiornato, con rotazione automatica degli header e simulazione di comportamento umano.
-* **Multitasking Efficiente:** Gestione contemporanea e parallela di download multimediali in HD (fino a 1080p e oltre) e comandi di amministrazione del gruppo.
+* **Core Ultra-Rapido:** Sviluppato in Node.js (V16+) con architettura asincrona.
+* **Intelligenza Integrata:** Sistema neurale per risposte contestuali.
+* **Stabilità Garantita:** Gestione intelligente dei messaggi per prevenire crash da spam.
+* **Sicurezza Avanzata:** Algoritmo Anti-Ban 4.0 con rotazione degli header.
+* **Multitasking:** Download multimediali in HD paralleli ai comandi admin.
 
 ---
 
@@ -36,8 +40,7 @@
 </p>
 
 ### 📱 METODO 1: TERMUX (Android)
-Copia e incolla questi comandi nel tuo terminale Android, uno alla volta, per installare e configurare il bot in pochi minuti:
-
+Copia e incolla questi comandi nel tuo terminale Android:
 ```bash
 pkg update && pkg upgrade
 pkg install git nodejs -y
@@ -45,3 +48,53 @@ git clone [https://github.com/BLOOD212/BLD-BLOOD-BOT.git](https://github.com/BLO
 cd BLD-BLOOD-BOT
 npm install
 npm start
+
+```
+<p align="center">
+<img src="https://www.google.com/search?q=https://readme-typing-svg.herokuapp.com%3Ffont%3DOrbitron%26size%3D30%26pause%3D500%26color%3DFF0000%26center%3Dtrue%26vCenter%3Dtrue%26width%3D700%26height%3D80%26lines%3DCOLLEGAMENTO%3BSISTEMA%2BVPS" alt="Titolo VPS Animato" />
+</p>
+L'installazione su **VPS** (Linux/Ubuntu) è consigliata per un uptime del **100% (24/7)**.
+#### Procedura dettagliata:
+ 1. **Accesso SSH:** Connettiti alla tua VPS (es. Putty).
+ 2. **Installazione Core:** Installa Git, Node.js e PM2.
+ 3. **Persistenza (PM2):** Per evitare che il bot si chiuda uscendo dal terminale:
+<!-- end list -->
+```bash
+npm install -g pm2
+pm2 start index.js --name "blood-bot"
+pm2 save
+pm2 startup
+
+```
+ 4. **Cloud Scan:** Dopo il primo QR scan, il bot rimarrà attivo per sempre in remoto.
+<p align="center">
+<img src="https://www.google.com/search?q=https://readme-typing-svg.herokuapp.com%3Ffont%3DOrbitron%26size%3D30%26pause%3D500%26color%3DFF0000%26center%3Dtrue%26vCenter%3Dtrue%26width%3D700%26height%3D80%26lines%3DANALISI%3BREPOS%2BFORKS%2BVIEWS" alt="Titolo Analisi Animato" />
+</p>
+Monitoraggio statistiche in tempo reale:
+<p align="center">
+<img src="https://www.google.com/search?q=https://gpvc.arturio.dev/BLOOD212/BLD-BLOOD-BOT" alt="Views Counter" />
+<img src="https://www.google.com/search?q=https://img.shields.io/github/forks/BLOOD212/BLD-BLOOD-BOT%3Fstyle%3Dfor-the-badge%26label%3DFORKS%26color%3Dred" alt="GitHub Forks" />
+<img src="https://www.google.com/search?q=https://img.shields.io/github/stars/BLOOD212/BLD-BLOOD-BOT%3Fstyle%3Dfor-the-badge%26label%3DSTARS%26color%3Dyellow" alt="GitHub Stars" />
+</p>
+<p align="center">
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/pin/%3Fusername%3DBLOOD212%26repo%3DBLD-BLOOD-BOT%26theme%3Dblood-dark%26title_color%3Dff0000%26icon_color%3Dff0000" width="100%" alt="Stats Pin" />
+</p>
+<p align="center">
+<img src="https://www.google.com/search?q=https://readme-typing-svg.herokuapp.com%3Ffont%3DOrbitron%26size%3D30%26pause%3D500%26color%3DFF0000%26center%3Dtrue%26vCenter%3Dtrue%26width%3D700%26height%3D80%26lines%3DSTAFF%3BCONTATTI" alt="Titolo Staff Animato" />
+</p>
+ * **Sviluppatore:** Blood 🧛‍♂️
+ * **Staff:** Blood
+ * **Supporto WhatsApp:** +39 370 133 0693
+ * **Canale Ufficiale:** Link Canale WhatsApp
+<p align="center">
+<img src="https://www.google.com/search?q=https://readme-typing-svg.herokuapp.com%3Ffont%3DFira%2BCode%26size%3D20%26pause%3D2000%26color%3DFF0000%26center%3Dtrue%26vCenter%3Dtrue%26width%3D650%26height%3D60%26lines%3DSUPPORT%2BBY%2BGIVING%2BA%2BSTAR+⭐;THANKS+FOR+USING+BLD-BLOOD-BOT!" alt="Thanks SVG" />
+</p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+</p>
+<p align="center">
+<b>© 2026 BLD-BLOOD-BOT • Sviluppato by Blood</b>
+</p>
+```
+
+```
