@@ -19,44 +19,92 @@
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&pause=500&color=FF0000&center=true&vCenter=true&width=700&height=80&lines=DESCRIZIONE;SPECIFICHE+TECNICHE" alt="Titolo Descrizione Animato" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&pause=500&color=FF0000&center=true&vCenter=true&width=700&height=80&lines=DESCRIZIONE;SPECIFICHE+TECNICHE" alt="Titolo Descrizione" />
 </p>
 
 **BLD-BLOOD-BOT** è un ecosistema avanzato per WhatsApp, costruito per garantire la massima potenza e stabilità.
 
-### 🛡️ Specifiche del Sistema:
-* **Core Ultra-Rapido:** Sviluppato in Node.js (V16+) con architettura asincrona.
-* **Intelligenza Integrata:** Sistema neurale per risposte contestuali.
-* **Stabilità Garantita:** Gestione intelligente dei messaggi per prevenire crash da spam.
-* **Sicurezza Avanzata:** Algoritmo Anti-Ban 4.0 con rotazione degli header.
-* **Multitasking:** Download multimediali in HD paralleli ai comandi admin.
+* **Core Ultra-Rapido:** Node.js (V16+) con architettura asincrona.
+* **Sicurezza:** Algoritmo Anti-Ban 4.0.
+* **Stabilità:** Gestione intelligente anti-crash.
 
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&pause=500&color=FF0000&center=true&vCenter=true&width=700&height=80&lines=METODI;DI+INSTALLAZIONE" alt="Titolo Installazione Animato" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&pause=500&color=FF0000&center=true&vCenter=true&width=700&height=80&lines=GUIDA;INSTALLAZIONE+DETTAGLIATA" alt="Installazione" />
 </p>
 
 ### 📱 METODO 1: TERMUX (Android)
-Copia e incolla questi comandi nel tuo terminale Android:
-```bash
-pkg update && pkg upgrade
-pkg install git nodejs -y
-git clone [https://github.com/BLOOD212/BLD-BLOOD-BOT.git](https://github.com/BLOOD212/BLD-BLOOD-BOT.git)
-cd BLD-BLOOD-BOT
-npm install
-npm start
+*Ideale per l'uso da smartphone. Copia e incolla i comandi uno alla volta:*
 
+1.  **Aggiorna il sistema e installa le dipendenze:**
+    ```bash
+    pkg update && pkg upgrade -y
+    pkg install git nodejs -y
+    ```
+2.  **Clona il repository ufficiale:**
+    ```bash
+    git clone [https://github.com/BLOOD212/BLD-BLOOD-BOT.git](https://github.com/BLOOD212/BLD-BLOOD-BOT.git)
+    cd BLD-BLOOD-BOT
+    ```
+3.  **Installa i moduli e avvia:**
+    ```bash
+    npm install
+    npm start
+    ```
+    *Dopo l'avvio, scansiona il codice QR con WhatsApp.*
 
+---
 
+### 💻 METODO 2: VPS (Linux/Ubuntu)
+*Consigliato per uptime 24/7 senza interruzioni.*
 
+1.  **Connessione SSH:** Accedi alla tua VPS tramite terminale o PuTTY.
+2.  **Installazione Core:** Assicurati di avere Git e Node.js installati.
+3.  **Configurazione Persistenza (PM2):**
+    Usa PM2 per evitare che il bot si spenga quando chiudi la console:
+    ```bash
+    npm install -g pm2
+    pm2 start index.js --name "blood-bot"
+    pm2 save
+    pm2 startup
+    ```
+4.  **Monitoraggio:** Usa `pm2 logs blood-bot` per vedere il codice QR e i log in tempo reale.
+
+---
 
 <p align="center">
-<img src="https://www.google.com/search?q=https://readme-typing-svg.herokuapp.com%3Ffont%3DOrbitron%26size%3D30%26pause%3D500%26color%3DFF0000%26center%3Dtrue%26vCenter%3Dtrue%26width%3D700%26height%3D80%26lines%3DCOLLEGAMENTO%3BSISTEMA%2BVPS" alt="Titolo VPS Animato" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&pause=500&color=FF0000&center=true&vCenter=true&width=700&height=80&lines=ANALISI;STATISTICHE+LIVE" alt="Analisi" />
 </p>
-L'installazione su VPS (Linux/Ubuntu) è consigliata per un uptime del 100% (24/7).
-Procedura dettagliata:
-Accesso SSH: Connettiti alla tua VPS tramite terminale o client (es. PuTTY).
-Installazione Core: Assicurati di avere Git, Node.js e PM2 installati.
-Persistenza (PM2): Per evitare che il bot si chiuda uscendo dal terminale:
-<!-- end list -->
+
+<p align="center">
+  <img src="https://gpvc.arturio.dev/BLOOD212/BLD-BLOOD-BOT" alt="Views" />
+  <img src="https://img.shields.io/github/forks/BLOOD212/BLD-BLOOD-BOT?style=for-the-badge&label=FORKS&color=red" alt="Forks" />
+  <img src="https://img.shields.io/github/stars/BLOOD212/BLD-BLOOD-BOT?style=for-the-badge&label=STARS&color=yellow" alt="Stars" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=BLOOD212&repo=BLD-BLOOD-BOT&theme=blood-dark&title_color=ff0000&icon_color=ff0000" width="100%" alt="Stats" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&pause=500&color=FF0000&center=true&vCenter=true&width=700&height=80&lines=STAFF;E+CONTATTI" alt="Staff" />
+</p>
+
+* **Sviluppatore:** Blood 🧛‍♂️
+* **Supporto WhatsApp:** [+39 370 133 0693](https://wa.me/393701330693)
+* **Community:** [UNISCITI AL CANALE](https://whatsapp.com/channel/0029VbCIFecBadmZCxG8ug0W)
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=2000&color=FF0000&center=true&vCenter=true&width=650&height=60&lines=SUPPORT+BY+GIVING+A+STAR+⭐;THANKS+FOR+USING+BLD-BLOOD-BOT!" alt="Thanks" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%">
+</p>
+
+<p align="center">
+  <b>© 2026 BLD-BLOOD-BOT • Sviluppato by Blood</b>
+</p>
