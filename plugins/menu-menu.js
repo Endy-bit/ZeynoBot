@@ -13,8 +13,9 @@ let tags = {
   info: '╭ *`DATABASE INFO`* ╯'
 }
 
+// CAMBIATO: "before" diventa "testoInizio", "after" diventa "testoFine"
 const defaultMenu = {
-  before: `
+  testoInizio: `
 ┏━━━━━━━━━━━━━━━━━━━━┓
    💠  *B L D  -  B O T* 💠
 ┗━━━━━━━━━━━━━━━━━━━━┛
@@ -30,7 +31,7 @@ const defaultMenu = {
   header: '      ⋆｡˚『 %category 』˚｡⋆\n╭',
   body: '*│ ➢* 『%emoji』 %cmd',
   footer: '*╰━━━━━━━──────━━━━━━━*\n',
-  after: `_Powered by BLD-BOT Interface_`,
+  testoFine: `_Powered by BLD-BOT Interface_`,
 }
 
 const localImg = './menu-principale.jpeg'
@@ -62,8 +63,9 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 
     let menuTags = Object.keys(tags)
 
+    // CAMBIATO: uso testoInizio e testoFine qui sotto
     let _text = [
-      defaultMenu.before,
+      defaultMenu.testoInizio,
       ...menuTags.map(tag => {
         return defaultMenu.header.replace(/%category/g, tags[tag]) + '\n' + [
           ...help
@@ -76,7 +78,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
           defaultMenu.footer
         ].join('\n')
       }),
-      defaultMenu.after
+      defaultMenu.testoFine
     ].join('\n')
 
     let text = _text.replace(/%name/g, name)
@@ -92,9 +94,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     let imageBuffer = null
     try {
       imageBuffer = await fs.readFile(localImg)
-      console.log("✅ Immagine caricata")
     } catch (e) {
-      console.log("⚠️ Immagine NON trovata, uso fallback")
+      console.log("⚠️ Immagine NON trovata")
     }
 
     await conn.sendMessage(m.chat, {
