@@ -9,19 +9,29 @@
 <p align="center">
   <a href="https://wa.me/393701330693"><img src="https://img.shields.io/badge/WHATSAPP-CONTATTO-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/STAFF-BLOOD-ff0000?style=for-the-badge&logo=opsgenie&logoColor=white" />
+  <img src="https://img.shields.io/badge/PLATFORM-LINUX%20%7C%20ANDROID-orange?style=for-the-badge&logo=android&logoColor=white" />
 </p>
 
 ---
 
 ## 📝 DESCRIZIONE DETTAGLIATA
-**BLD-BLOOD-BOT** non è solo un bot, è un ecosistema completo per WhatsApp. Progettato con un'architettura modulare e un core ultra-leggero, offre una stabilità senza precedenti. La sua intelligenza artificiale avanzata gli permette di comprendere il contesto, non solo i comandi, rendendo l'interazione fluida e naturale. Creato per garantire stabilità 24/7 senza rallentamenti.
+**BLD-BLOOD-BOT** è un bot WhatsApp all'avanguardia, progettato per offrire un'esperienza utente fluida, veloce e ricca di funzionalità. La sua intelligenza artificiale avanzata gli permette di comprendere il contesto, non solo i comandi, rendendo l'interazione fluida e naturale.
+
+---
+
+## ⚡ COMANDI POPOLARI
+Ecco un assaggio di quello che puoi fare:
+- `!menu` - Visualizza la lista completa dei poteri.
+- `!ai [domanda]` - Chiedi qualunque cosa all'intelligenza artificiale.
+- `!yt [url]` - Scarica video da YouTube in un lampo.
+- `!sticker` - Trasforma l'ultima immagine inviata in uno sticker.
+- `!kick @user` - Rimuovi un utente fastidioso (solo Admin).
 
 ---
 
 ## 🛠️ METODI DI INSTALLAZIONE
 
 ### 📱 METODO 1: TERMUX (Android)
-Copia e incolla questi comandi nel tuo terminale:
 ```bash
 pkg update && pkg upgrade
 pkg install git nodejs -y
