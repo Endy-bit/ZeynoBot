@@ -82,6 +82,6 @@ handler.help = ['segreto'];
 handler.tags = ['giochi'];
 handler.command = /^(segreto|skipsegreto)$/i;
 handler.group = true;
-handler.register = true;
+handler.register = false;
 
 export default handler;

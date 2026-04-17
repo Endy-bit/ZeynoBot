@@ -207,6 +207,6 @@ let handler = async (m, { text, usedPrefix, command, conn }) => {
 handler.help = ['lyrics <titolo> [artista]'];
 handler.tags = ['strumenti'];
 handler.command = ['lyrics', 'testo', 'lyric'];
-handler.register = true;
+handler.register = false;
 
 export default handler;

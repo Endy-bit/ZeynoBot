@@ -407,5 +407,5 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.help = ['titolo [posizione] | [testo]']
 handler.tags = ['strumenti']
 handler.command = /^titolo$/i
-handler.register = true
+handler.register = false
 export default handler

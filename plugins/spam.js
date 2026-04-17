@@ -40,6 +40,6 @@ handler.command = /^spam$/i
 // CORRETTO: era "hadler.owner"
 handler.owner = true 
 handler.group = true 
-handler.register = true 
+handler.register = false 
 
 export default handler

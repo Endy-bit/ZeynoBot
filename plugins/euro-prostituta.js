@@ -208,7 +208,7 @@ function msToTime(ms) {
 handler.help = ['puttana', 'pappone @tag'];
 handler.tags = ['euro', 'giochi'];
 handler.command = /^(prostituzione|puttana|pappone)$/i;
-handler.register = true;
+handler.register = false;
 handler.group = true;
 
 export default handler;

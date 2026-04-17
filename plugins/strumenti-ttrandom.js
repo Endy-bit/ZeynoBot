@@ -48,7 +48,7 @@ let handler = async (m, { conn, command, usedPrefix }) => {
 handler.help = ['ttrandom'];
 handler.tags = ['giochi'];
 handler.command = ['ttrandom', 'ttr', 'tiktokrandom'];
-handler.register = true;
+handler.register = false;
 
 export default handler;
 

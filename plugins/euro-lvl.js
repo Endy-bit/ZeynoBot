@@ -250,5 +250,5 @@ function formatNumber(num) {
 handler.help = ['livello']
 handler.tags = ['euro']
 handler.command = ['livello', 'lvl', 'levelup']
-handler.register = true
+handler.register = false
 export default handler

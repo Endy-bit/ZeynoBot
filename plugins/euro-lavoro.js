@@ -173,7 +173,7 @@ ${euro ? `🌟 *euro:* ${euro > 0 ? "+" : ""}${euro}` : ''}
 handler.help = ['lavorare']
 handler.tags = ['euro']
 handler.command = ['work', 'lavorare', 'lavoro']
-handler.register = true 
+handler.register = false 
 export default handler
 
 function toNum(number) {

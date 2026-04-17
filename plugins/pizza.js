@@ -100,6 +100,6 @@ handler.help = ['pizza'];
 handler.tags = ['giochi'];
 handler.command = /^pizza$/i;
 handler.group = true;
-handler.register = true;
+handler.register = false;
 
 export default handler;

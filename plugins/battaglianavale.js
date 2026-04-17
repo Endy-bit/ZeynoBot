@@ -171,6 +171,6 @@ handler.help = ['battaglia @tag']
 handler.tags = ['giochi']
 handler.command = /^(battaglia|accetta|rifiuta|fuoco|endgame|fine)$/i
 handler.group = true
-handler.register = true
+handler.register = false
 
 export default handler

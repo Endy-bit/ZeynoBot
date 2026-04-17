@@ -18,6 +18,6 @@ let handler = async (m, { conn }) => {
 handler.help = ['script'];
 handler.tags = ['main'];
 handler.command = ['script'];
-handler.register = true;
+handler.register = false;
 
 export default handler;

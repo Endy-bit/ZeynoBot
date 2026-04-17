@@ -428,6 +428,6 @@ let handler = async (m, { args, conn }) => {
 handler.help = ['depositare'];
 handler.tags = ['euro'];
 handler.command = ['deposita', 'depositare', 'dep'];
-handler.register = true;
+handler.register = false;
 
 export default handler;

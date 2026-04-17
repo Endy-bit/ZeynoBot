@@ -132,6 +132,6 @@ handler.help = ['rissa', 'punta'];
 handler.tags = ['giochi'];
 handler.command = /^(rissa|punta)$/i;
 handler.group = true;
-handler.register = true;
+handler.register = false;
 
 export default handler;

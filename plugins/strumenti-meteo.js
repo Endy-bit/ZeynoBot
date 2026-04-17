@@ -383,5 +383,5 @@ function getWeatherText(code) {
 handler.help = ['meteo'];
 handler.tags = ['strumenti'];
 handler.command = ['meteo', 'clima'];
-handler.register = true;
+handler.register = false;
 export default handler;

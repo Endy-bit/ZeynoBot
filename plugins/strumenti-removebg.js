@@ -91,6 +91,6 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 handler.help = ['removebg', 'rimuovibg'];
 handler.tags = ['strumenti'];
 handler.command = ['removebg', 'rimuovibg', 'nobg', 'rmbg'];
-handler.register = true;
+handler.register = false;
 
 export default handler;

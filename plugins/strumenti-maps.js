@@ -94,6 +94,6 @@ let handler = async (m, { args, conn, command, text }) => {
 handler.help = ['maps <luogo>', 'maps da <a> a <b>'];
 handler.tags = ['strumenti'];
 handler.command = /^maps$/i;
-handler.register = true;
+handler.register = false;
 
 export default handler;

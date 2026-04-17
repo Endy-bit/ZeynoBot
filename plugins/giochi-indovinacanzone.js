@@ -235,6 +235,6 @@ handler.before = async (m, { conn }) => {
 handler.help = ['indovinacanzone']
 handler.tags = ['giochi']
 handler.command = ['indovinacanzone', 'ic']
-handler.register = true
+handler.register = false
 handler.group = true
 export default handler

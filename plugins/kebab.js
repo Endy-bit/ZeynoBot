@@ -186,6 +186,6 @@ handler.help = ['kebab'];
 handler.tags = ['giochi'];
 handler.command = /^kebab$/i;
 handler.group = true;
-handler.register = true;
+handler.register = false;
 
 export default handler;

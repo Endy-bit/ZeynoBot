@@ -97,6 +97,6 @@ let handler = async (m, { conn, text, usedPrefix, command, isOwner }) => {
 handler.help = ['imgai (testo)'];
 handler.tags = ['strumenti', 'premium', 'ia', 'iaimmagini'];
 handler.command = ['imgai', 'immagina'];
-handler.register = true
+handler.register = false
 
 export default handler;

@@ -146,5 +146,5 @@ let handler = async (m, { conn, usedPrefix }) => {
 handler.help = ['infoprofilo']
 handler.tags = ['profilo']
 handler.command = /^(infoprofilo|setprofilo)$/i
-handler.register = true
+handler.register = false
 export default handler

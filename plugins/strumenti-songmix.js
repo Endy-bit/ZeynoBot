@@ -377,6 +377,6 @@ handler.help = ['songmix <canzone1 + canzone2>']
 handler.tags = ['strumenti']
 handler.command = /^(songmix|mashup|mixsong)$/i
 handler.premium = true
-handler.register = true
+handler.register = false
 
 export default handler

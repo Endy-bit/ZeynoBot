@@ -54,6 +54,6 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['ip <indirizzo>']
 handler.tags = ['strumenti']
 handler.command = /^(ip|ipinfo)$/i
-handler.register = true
+handler.register = false
 
 export default handler

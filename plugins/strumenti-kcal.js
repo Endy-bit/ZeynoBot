@@ -659,7 +659,7 @@ function getRelatedFoods(foodName, unit) {
 handler.help = ['kcal']
 handler.tags = ['strumenti']
 handler.command = /^(kcal|calorie|cal|nutrizione|nutri)$/i
-handler.register = true
+handler.register = false
 handler.owner = true
 
 export default handler

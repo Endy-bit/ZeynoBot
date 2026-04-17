@@ -22,6 +22,6 @@ handler.command = ['igdl']
 handler.tags = ['download']
 handler.help = ['igdl']
 handler.group = true;
-handler.register = true
+handler.register = false
 
 export default handler

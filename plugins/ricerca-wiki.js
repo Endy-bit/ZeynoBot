@@ -40,5 +40,5 @@ ${extract}`);
 handler.help = ['wikipedia'];
 handler.tags = ['ricerca'];
 handler.command = ['wiki','wikipedia'];
-handler.register = true
+handler.register = false
 export default handler;

@@ -59,5 +59,5 @@ function getNextRank(euro) {
 handler.help = ['portafoglio'];
 handler.tags = ['euro'];
 handler.command = ['wallet', 'portafoglio', 'bilancio'];
-handler.register = true;
+handler.register = false;
 export default handler;

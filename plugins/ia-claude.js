@@ -38,5 +38,5 @@ const handler = async (m, { text, conn }) => {
 handler.command = /^\.?claude$/i;
 handler.help = ['claude'];
 handler.tags = ['ai', 'strumenti', 'iatesto'];
-handler.register = true;
+handler.register = false;
 export default handler;

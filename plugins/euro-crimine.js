@@ -156,7 +156,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
 handler.tags = ['euro']
 handler.help = ['crimine']
 handler.command = ['crimine', 'deruba']
-handler.register = true
+handler.register = false
 handler.group = true
 
 export default handler

@@ -320,5 +320,5 @@ async function handler(messageInfo) {
 handler.help = ['compra (numero)']
 handler.tags = ['euro']
 handler.command = ['compra', 'compratutto']
-handler.register = true
+handler.register = false
 export default handler

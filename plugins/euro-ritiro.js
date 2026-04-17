@@ -76,6 +76,6 @@ let handler = async (m, { args, conn, usedPrefix, command }) => {
 handler.help = ['ritira']
 handler.tags = ['euro']
 handler.command = /^(withdraw|ritirare|ritira)$/i
-handler.register = true
+handler.register = false
 
 export default handler

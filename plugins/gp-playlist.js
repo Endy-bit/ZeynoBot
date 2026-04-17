@@ -546,5 +546,5 @@ handler.help = ['playlist <aggiungi|rimuovi|lista|sincronizza>'];
 handler.tags = ['gruppo'];
 handler.command = /^(playlist|pl)$/i;
 handler.group = true;
-handler.register = true;
+handler.register = false;
 export default handler;

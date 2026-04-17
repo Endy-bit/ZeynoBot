@@ -346,6 +346,6 @@ handler.help = ['loghi'];
 handler.tags = ['giochi'];
 handler.command = /^(loghi|skiploghi)$/i;
 handler.group = true;
-handler.register = true;
+handler.register = false;
 
 export default handler;

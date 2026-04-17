@@ -124,6 +124,6 @@ async function getGeminiResponse(apiKey, prompt, question, model) {
 handler.command = ['gemini']
 handler.help = ['gemini (testo)']
 handler.tags = ['strumenti', 'ia', 'iatesto']
-handler.register = true
+handler.register = false
 
 export default handler

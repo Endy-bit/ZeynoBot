@@ -133,6 +133,6 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
 handler.help = ['spotify <titolo>']
 handler.tags = ['ricerca']
 handler.command = /^spotify$/i
-handler.register = true
+handler.register = false
 
 export default handler

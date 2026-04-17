@@ -85,6 +85,6 @@ let handler = async (m, { conn, text, command }) => {
 handler.help = ['brat <testo>', 'bratvid <testo>']
 handler.tags = ['strumenti']
 handler.command = /^brat(vid(eo)?)?$/i
-handler.register = true
+handler.register = false
 
 export default handler

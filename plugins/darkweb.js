@@ -141,6 +141,6 @@ handler.help = ['darkweb']
 handler.tags = ['giochi']
 handler.command = /^(darkweb|buy|hack|regala|cedi|zaino|inventario|negozio)$/i
 handler.group = true
-handler.register = true
+handler.register = false
 
 export default handler

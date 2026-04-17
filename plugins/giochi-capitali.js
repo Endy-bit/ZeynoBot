@@ -281,6 +281,6 @@ handler.help = ['capitali'];
 handler.tags = ['giochi'];
 handler.command = /^(capitali|skipcapitali)$/i;
 handler.group = true;
-handler.register = true;
+handler.register = false;
 
 export default handler;

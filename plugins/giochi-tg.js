@@ -156,7 +156,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.help = ['tg <testo>']
 handler.tags = ['giochi']
 handler.command = /^(tg|telegiornale|news)$/i
-handler.register = true
+handler.register = false
 handler.group = true
 export default handler
 

@@ -42,7 +42,7 @@ handler.help = ['giornialiero'];
 handler.tags = ['euro'];
 handler.command = ['giornaliero', 'giornaliera'];
 
-handler.register = true;
+handler.register = false;
 
 export default handler;
 

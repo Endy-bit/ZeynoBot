@@ -48,7 +48,7 @@ handler.help = ['forziere'];
 handler.tags = ['euro'];
 handler.command = ['forziere', 'chest'];
 handler.cooldown = 86400000;
-handler.register = true;
+handler.register = false;
 
 export default handler;
 

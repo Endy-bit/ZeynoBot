@@ -727,7 +727,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 handler.help = ['banca', 'bank'];
 handler.tags = ['euro'];
 handler.command = ['bank', 'banca'];
-handler.register = true;
+handler.register = false;
 handler.group = true;
 
 export default handler;

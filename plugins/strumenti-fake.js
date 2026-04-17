@@ -18,7 +18,7 @@ mentionedJid: conn.parseMention(real.join(sp).trim())
 handler.help = ['fake (testo) @tag (testo)']
 handler.tags = ['giochi'];
 handler.command = /^(fake)$/
-handler.register = true 
+handler.register = false 
 
 export default handler
 

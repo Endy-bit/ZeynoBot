@@ -325,6 +325,6 @@ let handler = async (m, { conn, text, usedPrefix, command, isOwner }) => {
 handler.help = ['nova (testo o media)'];
 handler.tags = ['ia', 'multimodal', 'premium', 'strumenti'];
 handler.command = ['nova'];
-handler.register = true;
+handler.register = false;
 
 export default handler;

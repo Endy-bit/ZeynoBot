@@ -32,6 +32,6 @@ const handler = async (m, { conn }) => {
 handler.command = /^(vof|veroofalso|verofalso|veroefalso)$/i
 handler.tags = ['giochi']
 handler.help = ['veroofalso <testo>']
-handler.register = true
+handler.register = false
 
 export default handler

@@ -178,5 +178,5 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
 handler.tags = ['profilo']
 handler.command = /^(set(desc|bio|genere|ig|citta|compleanno|hobby|stato|lavoro|musica|cibo|film|gioco|sport|lingua)?|del)$/i
-handler.register = true
+handler.register = false
 export default handler

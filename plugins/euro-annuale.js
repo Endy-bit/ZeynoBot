@@ -30,7 +30,7 @@ handler.help = ['annuale'];
 handler.tags = ['euro'];
 handler.command = ['annuale'];
 handler.group = true;
-handler.register = true;
+handler.register = false;
 export default handler;
 
 function msToTime(duration) {

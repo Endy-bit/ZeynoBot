@@ -48,6 +48,6 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.help = ['emojimix'];
 handler.tags = ['giochi'];
 handler.command = ['emojimix'];
-handler.register = true;
+handler.register = false;
 
 export default handler;

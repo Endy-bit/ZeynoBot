@@ -123,6 +123,6 @@ const handleCardButtons = async (m, { conn, text }) => {
 handler.help = ['immagine <testo>'];
 handler.tags = ['ricerca'];
 handler.command = ['immagine', 'img', 'image'];
-handler.register = true;
+handler.register = false;
 
 export default handler;

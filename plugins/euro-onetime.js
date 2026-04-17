@@ -21,6 +21,6 @@ var handler = async (m, { conn }) => {
 handler.help = ['onetime'];
 handler.tags = ['euro'];
 handler.command = ['onetime'];
-handler.register = true;
+handler.register = false;
 
 export default handler;

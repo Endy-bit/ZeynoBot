@@ -81,6 +81,6 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.help = ['google <testo>'];
 handler.tags = ['ricerca'];
 handler.command = ['google', 'gsearch'];
-handler.register = true;
+handler.register = false;
 
 export default handler;

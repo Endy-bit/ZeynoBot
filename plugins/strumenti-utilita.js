@@ -143,6 +143,6 @@ async function handler(m, { conn, usedPrefix, command, args }) {
 handler.help = ['leggiqr', 'shorturl', 'unshorten', 'qrcode', 'password']
 handler.tags = ['strumenti']
 handler.command = ['readqr', 'leggiqr', 'shorturl', 'urlbreve', 'unshorten', 'espandiurl', 'urlcompleto', 'verourl', 'verolink', 'qrcode', 'codiceqr', 'password', 'pwd', 'psd', 'pass']
-handler.register = true
+handler.register = false
 
 export default handler

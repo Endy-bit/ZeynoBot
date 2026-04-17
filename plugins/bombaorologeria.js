@@ -134,6 +134,6 @@ handler.help = ['bomba'];
 handler.tags = ['giochi'];
 handler.command = /^(bomba)$/i;
 handler.group = true;
-handler.register = true;
+handler.register = false;
 
 export default handler;

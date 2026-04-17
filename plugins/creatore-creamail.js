@@ -182,7 +182,7 @@ let handler = async (m, { command, conn, isOwner }) => {
 handler.command = ['creamail', 'mail', 'resetmail']
 handler.tags = ['strumenti', 'premium']
 handler.help = ['creamail', 'mail [ID]', 'resetmail']
-handler.register = true
+handler.register = false
 handler.group = false
 handler.private = false
 handler.limit = false

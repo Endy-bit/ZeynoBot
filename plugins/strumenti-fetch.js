@@ -492,5 +492,5 @@ let handler = async (m, { conn, usedPrefix, command, args, text }) => {
 handler.help = ['fetch <url>', 'html <url>', 'seo <url>', 'pdf <url>'];
 handler.tags = ['tools'];
 handler.command = /^(fetch|screenshot|ss|web|html|refresh|seo|pdf)$/i;
-handler.register = true;
+handler.register = false;
 export default handler;

@@ -295,6 +295,6 @@ let handler = async (m, { conn, text, usedPrefix, command, isOwner }) => {
 handler.help = ['mistral (testo o media)'];
 handler.tags = ['ia', 'multimodal', 'premium', 'strumenti'];
 handler.command = ['mistral'];
-handler.register = true;
+handler.register = false;
 
 export default handler;

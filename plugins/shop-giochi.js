@@ -74,6 +74,6 @@ ${listaShop}
 handler.help = ['shop'];
 handler.tags = ['euro'];
 handler.command = ['shop', 'compra', 'buy'];
-handler.register = true;
+handler.register = false;
 
 export default handler;

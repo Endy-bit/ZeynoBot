@@ -77,5 +77,5 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 handler.help = ['voce <voce> | <testo>'];
 handler.tags = ['ai', 'audio'];
 handler.command = /^voce$/i;
-handler.register = true
+handler.register = false
 export default handler;

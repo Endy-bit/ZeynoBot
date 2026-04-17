@@ -264,6 +264,6 @@ ${Object.entries(languages).map(([code, name]) => `*├─⭓* *${code}: ${name}
 handler.help = ['traduci [lingua] [testo]', 'parla [lingua] [testo]'];
 handler.tags = ['strumenti'];
 handler.command = /^(traduttore|traduci|tr|traduzione|parla|ascolta_originale|ascolta_traduzione)$/i;
-handler.register = true;
+handler.register = false;
 
 export default handler;

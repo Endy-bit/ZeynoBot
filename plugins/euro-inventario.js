@@ -44,6 +44,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 handler.help = ['inventario [@user]']
 handler.tags = ['euro']
 handler.command = ['inventario', 'inv'] 
-handler.register = true
+handler.register = false
 
 export default handler

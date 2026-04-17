@@ -158,6 +158,6 @@ function getAspectRatioCrop(width, height, targetW, targetH) {
 handler.help = ['crop', 'ritaglio', 'autocrop'];
 handler.tags = ['strumenti'];
 handler.command = ['crop', 'ritaglio', 'autocrop', 'ritagliare'];
-handler.register = true;
+handler.register = false;
 
 export default handler;

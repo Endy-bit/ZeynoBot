@@ -215,6 +215,6 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.help = ['factcheck <testo>']
 handler.tags = ['strumenti']
 handler.command = /^(factcheck|fc|factchecker)$/i
-handler.register = true
+handler.register = false
 
 export default handler
