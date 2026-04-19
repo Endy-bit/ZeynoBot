@@ -44,7 +44,7 @@ export async function before(m, { conn, isAdmin, isOwner, isSam }) {
   const text = `
 ⋆｡˚『 ╭ \`SISTEMA ANTIBOT\` ╯ 』˚｡⋆
 ╭
-┃ 🛡️ \`Stato:\` *Protocollo Blood Attivo*
+┃ 🛡️ \`Stato:\` *Protocollo Endy Attivo*
 ┃
 ┃ 『 👤 』 \`Target:\` @${m.sender.split('@')[0]}
 ┃ 『 🤖 』 \`Dispositivo:\` *${device.toUpperCase()}*
