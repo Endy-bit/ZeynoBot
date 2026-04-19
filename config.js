@@ -13,33 +13,35 @@ const moduleCache = new NodeCache({ stdTTL: 300 });
 
 /*⭑⭒━━━✦❘༻☾⋆⁺₊✧ 𝖇𝖑𝖔𝖔𝖉𝖇𝖔𝖙✧₊⁺⋆☽༺❘✦━━━⭒⭑*/
 
-global.sam = ['393701330693',]
+global.sam = ['393501989497',]
 global.owner = [
-  ['393701330693', 'blood', true],
-  ['212778494602', 'deadly', true],
-  ['212779981664', 'gaia', true],
-  ['393508727141', 'matteo', true], 
-  ['xxxxxxxxxxxxx']
+  ['393501989497', 'endy', true],
+  ['212614898801', 'bot', true],
+  ['447449205584', 'endy+44', true],
+  ['447393088288', 'ksav', true], 
+  ['212693877842', 'medalis', true],
+  ['393756972784', 'estreia', true],
+  ['447935218835', 'exorcism', true],
 ]
 global.mods = ['xxxxxxxxxxx', 'xxxxxxxxxxx', 'xxxxxxxxxxx']
 global.prems = ['xxxxxxxxxxx', 'xxxxxxxxxxx', 'xxxxxxxxxxx']
 
 /*⭑⭒━━━✦❘༻🩸 INFO BOT 🕊️༺❘✦━━━⭒⭑*/
 
-global.nomepack = 'BLD-BLOOD'
-global.nomebot = 'BLD-BLOOD'
-global.wm = 'BLD-BLOOD'
-global.autore = 'BLOOD'
-global.dev = 'BLOOD'
-global.testobot = `BLD-BLOOD`
+global.nomepack = '𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮'
+global.nomebot = '𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮'
+global.wm = '𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮'
+global.autore = '乇✘dy'
+global.dev = '乇✘dy'
+global.testobot = `𝚭𝚵𝚼𝚴𝚰 𝚩𝚰𝚮`
 global.versione = pkg.version
-global.errore = '*ERRORE INATTESO*, UTILIZZA IL COMANDO .segnala (errore) per contattare lo sviluppatore. contatto diretto:+39 370 133 0693'
+global.errore = '*ERRORE INATTESO*, UTILIZZA IL COMANDO !segnala (errore) per contattare lo sviluppatore. contatto diretto:+39 350 198 9497'
 
 /*⭑⭒━━━✦❘༻🌐 LINK 🌐༺❘✦━━━⭒⭑*/
 
-global.repobot ='https//wa.me/393701330693'
-global.gruppo = 'https://chat.whatsapp.com/KdLKg5DoZ2CGrNlbqJRdV9'
-global.insta = 'https://www.instagram.com/bloodvelith'
+global.repobot ='https//wa.me/393501989497'
+global.gruppo = 'https://chat.whatsapp.com/EPY9EqMNV6XD0PmVk8jbEb?mode=gi_t'
+global.insta = ''
 
 /*⭑⭒━━━✦❘༻ MODULI ༺❘✦━━━⭒⭑*/
 
