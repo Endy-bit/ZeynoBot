@@ -74,7 +74,7 @@ handler.before = async function (m, { conn, participants, isBotAdmin }) {
   const text = `
   ⋆｡˚『 ╭ \`ANTINUKE ATTIVO\` ╯ 』˚｡⋆
 ╭
-┃ 🚨 \`Stato:\` *Blood ha messo il preservativo*
+┃ 🚨 \`Stato:\` *Endy ha messo la protezione*
 ┃
 ┃ 『 👤 』 \`Autore:\` @${sender.split('@')[0]}
 ┃ 『 🚫 』 \`Azione:\` *${action}* NON autorizzata
